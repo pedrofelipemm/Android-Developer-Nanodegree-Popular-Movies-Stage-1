@@ -52,6 +52,8 @@ class CatalogAdapter extends ArrayAdapter<Movie> {
 
         Picasso.with(getContext())
                 .load(movie.getPosterUrl())
+                .placeholder(R.drawable.no_image)
+                .error(R.drawable.no_image)
                 .into(holder.posterImageView);
 
         holder.posterImageView.setOnClickListener(new OnClickListener() {
