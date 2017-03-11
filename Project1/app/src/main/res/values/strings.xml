@@ -1,0 +1,12 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Popular Movies</string>
+
+    <string name="popular_movies">Popular Movies</string>
+    <string name="top_rated_movies">Top Rated Movies</string>
+
+    <string name="settings_orderby_most_popular">Most Popular</string>
+    <string name="settings_orderby_top_rated">Top Rated</string>
+    <string name="error_no_connection">No connection detected.\nPlease verify.</string>
+    <string name="movie_activity_vote_average" translatable="false"><xliff:g id="vote_average">%d</xliff:g>/10</string>
+    <string name="poster_image_of_the_movie">Poster image of the movie.</string>
+</resources>
